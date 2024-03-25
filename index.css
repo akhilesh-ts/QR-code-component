@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     overflow: hidden;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family:'poppins'
 }
 .container{
     width: 100%;
@@ -16,11 +16,11 @@
 
 }
 .card{
-    width: 250px;
+    width: 320px;
     height: auto;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 10px;
+    padding: 12px;
     box-shadow: 0 8px 20px rgba(57, 57, 57, 0.3);
 }
 
@@ -31,24 +31,27 @@
      object-fit: cover;
 } 
 .card-heading{
-    padding: 10px;
+    padding: 12px;
 }
 
 .card-heading h4{
     text-align: center;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
+    /* letter-spacing: .5px; */
     color: rgb(26, 23, 23);
 }
 
 .card-description{
-    padding: 10px;
+    padding: 11px;
     
 }
 
 .card-description p{
     text-align-last: center;
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     color: #9ea1a4;
+    margin-bottom: 12px;
+   
 }
