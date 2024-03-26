@@ -19,7 +19,7 @@
     width: 320px;
     height: auto;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 12px;
     box-shadow: 0 8px 20px rgba(57, 57, 57, 0.3);
 }
@@ -39,7 +39,8 @@
     font-size: 20px;
     font-weight: 700;
     /* letter-spacing: .5px; */
-    color: rgb(26, 23, 23);
+    /* color: rgb(26, 23, 23); */
+    color: #1F314F;
 }
 
 .card-description{
@@ -51,7 +52,7 @@
     text-align-last: center;
     font-size: 15px;
     font-weight: 400;
-    color: #9ea1a4;
+    color: #7D889E;
     margin-bottom: 10px;
    
 }
